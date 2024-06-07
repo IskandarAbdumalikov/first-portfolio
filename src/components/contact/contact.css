@@ -1,0 +1,22 @@
+.contact {
+  padding: 50px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+  svg{
+    cursor: pointer;
+  }
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
